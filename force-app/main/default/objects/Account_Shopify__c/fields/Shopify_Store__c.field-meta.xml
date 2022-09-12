@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shopify_Store__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Creates a normalized structure for the Shopify Stores</description>
+    <externalId>false</externalId>
+    <label>Shopify Store</label>
+    <referenceTo>Shopify__c</referenceTo>
+    <relationshipLabel>Account Shopify</relationshipLabel>
+    <relationshipName>Account_Shopify</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>From_Number__c</fullName>
+    <defaultValue>&quot;+18883562517&quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>From Number</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TPNC3C4B23C348AEC2EE54EFD301979CD2E68B5494B6B54E38590ED89AC6C25F45436DDCE72F465BBE3</fullName>
+                <default>true</default>
+                <label>Aroma360 Dialer (+18883562517)</label>
+            </value>
+            <value>
+                <fullName>TPNC3C4B23C348AEC2EE54EFD301979CD2E68B5494B6B54E385D3900F4B1B42E59B07DF40ADB787A15B</fullName>
+                <default>false</default>
+                <label>Private Label Dialer +18882701974</label>
+            </value>
+            <value>
+                <fullName>TPNC3C4B23C348AEC2EE54EFD301979CD2E68B5494B6B54E385DB6EDFD7B99B2B6A2BFEBD49E3D47580</fullName>
+                <default>false</default>
+                <label>Hotel Collection Distributor v2 (786) 321-8977</label>
+            </value>
+            <value>
+                <fullName>TPNC3C4B23C348AEC2EE54EFD301979CD2E68B5494B6B54E3856ECA630DB2B6D213A910FCE4D134C770</fullName>
+                <default>false</default>
+                <label>Aroma Dialer 786 (+17867568159)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

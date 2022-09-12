@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Onboarding__c</fullName>
+    <externalId>false</externalId>
+    <label>Onboarding</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Needs ADP</fullName>
+                <default>false</default>
+                <label>Needs ADP</label>
+            </value>
+            <value>
+                <fullName>Office</fullName>
+                <default>false</default>
+                <label>Office</label>
+            </value>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
+                <fullName>Zoho</fullName>
+                <default>false</default>
+                <label>Zoho</label>
+            </value>
+            <value>
+                <fullName>Calltracking Metrics</fullName>
+                <default>false</default>
+                <label>Calltracking Metrics</label>
+            </value>
+            <value>
+                <fullName>Accounting Seed</fullName>
+                <default>false</default>
+                <label>Accounting Seed</label>
+            </value>
+            <value>
+                <fullName>Desktop</fullName>
+                <default>false</default>
+                <label>Desktop</label>
+            </value>
+            <value>
+                <fullName>Laptop</fullName>
+                <default>false</default>
+                <label>Laptop</label>
+            </value>
+            <value>
+                <fullName>SIP Phone</fullName>
+                <default>false</default>
+                <label>SIP Phone</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Hired</controllingFieldValue>
+            <valueName>Needs ADP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hired</controllingFieldValue>
+            <valueName>Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hired</controllingFieldValue>
+            <valueName>Salesforce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hired</controllingFieldValue>
+            <valueName>Zoho</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hired</controllingFieldValue>
+            <valueName>Calltracking Metrics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hired</controllingFieldValue>
+            <valueName>Accounting Seed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hired</controllingFieldValue>
+            <valueName>Desktop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hired</controllingFieldValue>
+            <valueName>Laptop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hired</controllingFieldValue>
+            <valueName>SIP Phone</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

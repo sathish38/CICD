@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CT_Clawback_by_UGA_Amount__c</fullName>
+    <description>This is the amount clawed back by UGA. This is not to be used for other finance companies.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field added per request from Rachel on 29-Aug-22</inlineHelpText>
+    <label>CT Clawback by UGA Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

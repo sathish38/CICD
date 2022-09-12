@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prename_Greeting__c</fullName>
+    <defaultValue>&quot;Hi&quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>Prename Greeting</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hi</fullName>
+                <default>false</default>
+                <label>Hi</label>
+            </value>
+            <value>
+                <fullName>Hey</fullName>
+                <default>false</default>
+                <label>Hey</label>
+            </value>
+            <value>
+                <fullName>Aroma360</fullName>
+                <default>false</default>
+                <label>Aroma360</label>
+            </value>
+            <value>
+                <fullName>HC</fullName>
+                <default>false</default>
+                <label>HC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

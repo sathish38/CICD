@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_number_UGA__c</fullName>
+    <description>This was a request from Rachel to be able to put UGA Account Numbers. She calls it loan numbers but UGA calls it Account Number</description>
+    <externalId>false</externalId>
+    <inlineHelpText>UGA Loan Number - Called Account Number by UGA</inlineHelpText>
+    <label>Account_number_UGA</label>
+    <length>14</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
